@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <!-- Otras etiquetas meta y enlaces -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+
+
+    <main>
+        <div class="header myBlog">
+            <header>
+                <h1>MyBlog</h1>
+                <p>The Last Posts About Graphic And Web Design</p>
+            </header>
+        </div>
+        <section class="foto-imagen">
+
+
+            <!-- Primer artículo con imagen y texto -->
+            <article>
+                <img src="static/img/imagen1.png"
+                    alt="Imagen sobre las diferencias entre el diseño gráfico y el diseño web">
+
+                <div>
+                    <p class="time"><time>09 March, 2020</time></p>
+                    <h2>What's The Difference Between Graphic And Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consecteteur adipisicing elit. Perferendis, soluta rerum molestias
+                        optio distinctio blanditiis cupiditate.</p>
+                    <a href="#" class="btn-custom">Read More</a>
+                </div>
+            </article>
+
+            <!-- Segundo artículo con imagen y texto -->
+            <article>
+                <img src="static/img/imagen2.png" alt="Imagen sobre cómo crear un sitio web exitoso para tu negocio">
+
+                <div>
+                    <p class="time"><time>09 March, 2020</time></p>
+                    <h2>How To Create A Successful Website For Your Business</h2>
+                    <p>Lorem ipsum dolor sit amet, consecteteur adipisicing elit. Perferendis, soluta rerum molestias
+                        optio distinctio blanditiis cupiditate.</p>
+                    <a href="/read-more">Read More</a>
+                </div>
+            </article>
+
+            <!-- Tercer artículo con imagen y texto -->
+            <article>
+
+                <img src="static/img/imagen3.png" alt="Imagen sobre el síndrome del impostor y cómo superarlo">
+
+                <div>
+                    <p class="time"><time>09 March, 2020</time></p>
+                    <h2>What Is Impostor Syndrome? And How You Can Beat It!</h2>
+                    <p>Lorem ipsum dolor sit amet, consecteteur adipisicing elit. Perferendis, soluta rerum molestias
+                        optio distinctio blanditiis cupiditate.</p>
+                    <a href="/read-more">Read More</a>
+                </div>
+
+            </article>
+
+            <!-- Cuarto artículo con imagen y texto -->
+            <article>
+
+                <img src="static/img/imagen4.png"
+                    alt="Imagen sobre las mejores herramientas para crecer tu aplicación móvil">
+
+                <div>
+                    <p class="time"><time>09 March, 2020</time></p>
+                    <h2>5 Best Tools Will Help You Grow Your Mobile App</h2>
+                    <p>Lorem ipsum dolor sit amet, consecteteur adipisicing elit. Perferendis, soluta rerum molestias
+                        optio distinctio blanditiis cupiditate.</p>
+                    <a href="/read-more">Read More</a>
+                </div>
+
+            </article>
+
+        </section>
+
+        <div class="header contact">
+            <header>
+                <h1>Contact Me</h1>
+                <p>Feel Free To Contact Me Any Time</p>
+            </header>
+        </div>
+
+
+        <!-- Sección de contacto usando Flexbox -->
+        <section class="contacto">
+            <section class="form-section">
+                <form action="/send-message" method="post">
+                    <input type="text" id="name" name="fname" placeholder="Name" required><br>
+                    <input type="email" id="email" name="email" placeholder="Email" required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
+                    <textarea id="message" name="message" class="textarea-medio" placeholder="Message"
+                        required></textarea><br>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+
+
+            <section class="talk-about">
+                <section>
+                    <h2>Let's talk about everything!</h2>
+                    <p>Lorem ipsum dolor sit amet, consecteteur adipisicing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore. Lorem ipsum dolor sit amet, consecteteur adipisicing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+
+                    <section>
+                        <h3 class="phone"> Phone:</h3>
+                        <p>+133-804-9098</p>
+                    </section>
+
+                    <section>
+                        <h3 class="email"> Email:</h3>
+                        <p>contact@mariam.com</p>
+                    </section>
+
+                    <section>
+                        <h3 class="address"> Address:</h3>
+                        <p>1000 Proctor St USA.</p>
+                    </section>
+
+                    <section>
+                        <h3><i class="fab fa-skype"></i> Skype:</h3>
+                        <p>mariam.wallas</p>
+                    </section>
+                </section>
+            </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2024 Mariam Wallas. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
